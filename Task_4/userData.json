@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "Balance": 230,
+    "Password": "1234",
+    "Firstname": "Tony",
+    "Lastname": "Startk",
+    "IdentificationNumber": "73003009812"
+  },
+  {
+    "Id": 2,
+    "Balance": 220,
+    "Password": "4391",
+    "Firstname": "Bruce",
+    "Lastname": "Wayne",
+    "IdentificationNumber": "72002009173"
+  },
+  {
+    "Id": 3,
+    "Balance": 300,
+    "Password": "4312",
+    "Firstname": "Peter",
+    "Lastname": "Parker",
+    "IdentificationNumber": "91002003912"
+  },
+  {
+    "Id": 4,
+    "Balance": 350,
+    "Password": "4129",
+    "Firstname": "Elon",
+    "Lastname": "Musk",
+    "IdentificationNumber": "62004005722"
+  },
+  {
+    "Id": 5,
+    "Balance": 600,
+    "Password": "1290",
+    "Firstname": "Martin",
+    "Lastname": "Luther",
+    "IdentificationNumber": "43001009874"
+  },
+  {
+    "Id": 7,
+    "Balance": 1270,
+    "Password": "1234",
+    "Firstname": "Abraham",
+    "Lastname": "Lincoln",
+    "IdentificationNumber": "92004009812"
+  },
+  {
+    "Id": 8,
+    "Balance": 1,
+    "Password": "1312",
+    "Firstname": "Nelson",
+    "Lastname": "Mandela",
+    "IdentificationNumber": "94884009823"
+  }
+]
