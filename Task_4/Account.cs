@@ -21,9 +21,11 @@
         private float balance;
         public float Balance
         {
+            get { return balance; }
+
             set
             {
-                if (value > 0)
+                if (value >= 0)
                 {
                     balance = value;
                 }
@@ -32,7 +34,6 @@
                     throw new Exception("Insufficient funds.");
                 }
             }
-            get { return balance; }
         }
         private string password;
         public string Password

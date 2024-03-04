@@ -74,7 +74,6 @@ namespace Task_4
             account.IdentificationNumber = Console.ReadLine();
             Console.Write("Enter password: ");
             account.Password = Console.ReadLine();
-            account.Balance = 1;
             return account;
         }
     }
