@@ -71,11 +71,6 @@ namespace Task_4
                         Console.WriteLine("Register to continue");
                         //Registers new user
                         var register = Json.NewUser();
-                        Console.WriteLine("Your account:");
-                        Console.WriteLine("-------------");
-                        Console.WriteLine($"Identification Number: {register.IdentificationNumber}");
-                        Console.WriteLine($"Password: {register.Password}");
-                        Console.WriteLine("Log in to continue operations");
 
                         string json = File.ReadAllText(fileLocation);
                         List<Account> accounts;
@@ -88,6 +83,12 @@ namespace Task_4
                         else
                         {
                           Json.AddNewUser(register);
+
+                          Console.WriteLine("Your account:");
+                          Console.WriteLine("-------------");
+                          Console.WriteLine($"Identification Number: {register.IdentificationNumber}");
+                          Console.WriteLine($"Password: {register.Password}");
+                          Console.WriteLine("Log in to continue operations");
                         }//Adds new user if id and pass are unique
                     }
                     if (userExistance)
@@ -173,12 +174,6 @@ namespace Task_4
                 else if (initialChoice == '2') //Register new user
                 {
                     var register = Json.NewUser();
-                    Console.WriteLine("Your account:");
-                    Console.WriteLine("-------------");
-                    Console.WriteLine($"Identification Number: {register.IdentificationNumber}");
-                    Console.WriteLine($"Password: {register.Password}");
-                    Console.WriteLine("Log in to continue operations");
-
                     string json = File.ReadAllText(fileLocation);
                     List<Account> accounts;
                     accounts = JsonSerializer.Deserialize<List<Account>>(json);
@@ -190,6 +185,12 @@ namespace Task_4
                     else
                     {
                           Json.AddNewUser(register);
+
+                          Console.WriteLine("Your account:");
+                          Console.WriteLine("-------------");
+                          Console.WriteLine($"Identification Number: {register.IdentificationNumber}");
+                          Console.WriteLine($"Password: {register.Password}");
+                          Console.WriteLine("Log in to continue operations");
                     }
                 }
             }
